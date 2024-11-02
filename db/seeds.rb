@@ -9,16 +9,16 @@
 #   end
 
 Card.create([
-  { name: "Bluey", image_url: "https://res.cloudinary.com/your-cloud-name/image/upload/bluey.jpg" },
-  { name: "Bingo", image_url: "https://res.cloudinary.com/your-cloud-name/image/upload/bingo.jpg" },
-  { name: "Muffin", image_url: "https://res.cloudinary.com/your-cloud-name/image/upload/muffin.jpg" },
-  { name: "Socks", image_url: "https://res.cloudinary.com/your-cloud-name/image/upload/socks.jpg" },
-  { name: "Bandit (Dad)", image_url: "https://res.cloudinary.com/your-cloud-name/image/upload/bandit.jpg" },
-  { name: "Chilli (Mum)", image_url: "https://res.cloudinary.com/your-cloud-name/image/upload/chilli.jpg" },
-  { name: "Coco", image_url: "https://res.cloudinary.com/your-cloud-name/image/upload/coco.jpg" },
-  { name: "Snickers", image_url: "https://res.cloudinary.com/your-cloud-name/image/upload/snickers.jpg" },
-  { name: "Lucky", image_url: "https://res.cloudinary.com/your-cloud-name/image/upload/lucky.jpg" },
-  { name: "Indy", image_url: "https://res.cloudinary.com/your-cloud-name/image/upload/indy.jpg" }
+  { name: "Bluey", image_url: "https://res.cloudinary.com/dngtno2ra/image/upload/v1730545322/bluey_pgehjn.png" },
+  { name: "Bingo", image_url: "https://res.cloudinary.com/dngtno2ra/image/upload/v1730545322/bingo_jzmwbo.png" },
+  { name: "Muffin", image_url: "https://res.cloudinary.com/dngtno2ra/image/upload/v1730545322/muffin_lne3ju.png" },
+  { name: "Socks", image_url: "https://res.cloudinary.com/dngtno2ra/image/upload/v1730545323/socks_ugmurk.png" },
+  { name: "Bandit (Dad)", image_url: "https://res.cloudinary.com/dngtno2ra/image/upload/v1730545322/bandit_seckkh.png" },
+  { name: "Chilli (Mum)", image_url: "https://res.cloudinary.com/dngtno2ra/image/upload/v1730545323/chilli_ztbtxz.png" },
+  { name: "Nana", image_url: "https://res.cloudinary.com/dngtno2ra/image/upload/v1730545325/nana_qs0jnq.png" },
+  { name: "Jack", image_url: "https://res.cloudinary.com/dngtno2ra/image/upload/v1730545325/jack_ag0wwp.png" },
+  { name: "Granny Rita", image_url: "https://res.cloudinary.com/dngtno2ra/image/upload/v1730545322/granny-rita_o8dpfl.png" },
+  { name: "Judo", image_url: "https://res.cloudinary.com/dngtno2ra/image/upload/v1730545325/judo_gjwni7.png" }
 ])
 
 # run the seed commands later if cloudinary images are uploaded to the cloud
