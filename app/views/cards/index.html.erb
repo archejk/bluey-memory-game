@@ -1,0 +1,7 @@
+<div id="game-board" data-controller="game">
+  <% @cards.each do |card| %>
+    <div class="card" data-card-name="<%= card.name %>" data-card-image="<%= card.image_url %>">
+      <img src="<%= card.image_url %>" alt="<%= card.name %>" style="display: none;">
+    </div>
+  <% end %>
+</div>
