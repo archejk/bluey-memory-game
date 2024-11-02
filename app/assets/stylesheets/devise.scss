@@ -1,0 +1,73 @@
+/* General Styles for Devise Forms */
+.devise-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f7f9fc;
+}
+
+.devise-form {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.devise-form h2 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.devise-form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.devise-form input[type="email"],
+.devise-form input[type="password"],
+.devise-form input[type="text"] {
+  width: 100%;
+  padding: 10px 0px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.devise-form input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.devise-form input[type="submit"]:hover {
+  background-color: #357ab8;
+}
+
+.devise-links {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.devise-links a {
+  color: #4a90e2;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.devise-links a:hover {
+  text-decoration: underline;
+}

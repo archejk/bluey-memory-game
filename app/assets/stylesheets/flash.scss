@@ -1,0 +1,41 @@
+.flash {
+  border-radius: 0px;
+  background-color: white;
+  z-index: 1060; // Ensure it's above other content
+
+  &.error {
+    background-color: #df4759; // Red color for errors
+    color: white;
+    cursor: pointer;
+  }
+  
+  &.notice {
+    background-color: #3c79d5; // Blue for notices
+    color: white;
+    cursor: pointer;
+  }
+
+  &.alert {
+    background-color: #df4759; // Red color for alerts
+    color: white;
+    cursor: pointer;
+  }
+
+  &.success {
+    background-color: #198754; // Green for success messages
+    color: white;
+    cursor: pointer;
+  }
+
+  position: fixed; // Keep it fixed to the viewport
+  top: 20px; // Space from the top
+  right: 20px; // Space from the right
+  margin: 0; // Remove margin to avoid shifting
+
+  // Adjusting padding and font size for compactness
+  padding: 5px 10px; // Reduced padding for a smaller height
+  font-size: 0.875rem; // Adjust font size if needed
+  line-height: 1.2; // Adjust line height to further reduce space
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
+  transition: opacity 0.5s ease; // Smooth appearance
+}
