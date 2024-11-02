@@ -29,6 +29,9 @@ config/master.key
 .env
 .env*.local
 
+# Environment and secrets files
+config/local_env.yml
+
 ## Environment normalization:
 /.bundle
 /vendor/bundle
