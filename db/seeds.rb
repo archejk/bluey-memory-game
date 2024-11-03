@@ -19,7 +19,7 @@ Card.create([
   { name: "Jack", image_url: "https://res.cloudinary.com/dngtno2ra/image/upload/v1730545325/jack_ag0wwp.png" },
   { name: "Granny Rita", image_url: "https://res.cloudinary.com/dngtno2ra/image/upload/v1730545322/granny-rita_o8dpfl.png" },
   { name: "Judo", image_url: "https://res.cloudinary.com/dngtno2ra/image/upload/v1730545325/judo_gjwni7.png" },
-  { name: "Bently", image_url: "https://res.cloudinary.com/dngtno2ra/image/upload/v1730545325/bentley_jbz5kt.png" },
+  { name: "Bentley", image_url: "https://res.cloudinary.com/dngtno2ra/image/upload/v1730545325/bentley_jbz5kt.png" },
   { name: "Chucky", image_url: "https://res.cloudinary.com/dngtno2ra/image/upload/v1730545325/chucky_gtltie.png" },
   { name: "Buddy", image_url: "https://res.cloudinary.com/dngtno2ra/image/upload/v1730545325/buddy_rltult.png" },
   { name: "Chloe", image_url: "https://res.cloudinary.com/dngtno2ra/image/upload/v1730545325/chloe_iwm6lb.png" },
