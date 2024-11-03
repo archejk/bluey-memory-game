@@ -5,6 +5,10 @@ body {
   padding: 0;
 }
 
+#game-container {
+  text-align: center;
+}
+
 // Scoreboard CSS
 
 #scoreboard {
@@ -18,9 +22,11 @@ body {
   // box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 
   background-color: #f9f9f9;
-  border: 1px solid #ccc;   
-  border-radius: 5px;       
-  padding: 10px;            
+  opacity: 0.9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px; 
+  margin-bottom: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -36,9 +42,9 @@ body {
 
 #game-board {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  opacity: 0.9;
+  gap: 35px;
   margin: 20px auto;
   max-width: 1200px;
   justify-content: center;
@@ -55,7 +61,8 @@ body {
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  height: 160px;
+  height: 250px;
+  width: 100%;
 }
 
 .card:hover {
@@ -66,4 +73,35 @@ body {
 .card img {
   max-width: 80%;
   max-height: 80%;
+}
+
+@media screen and (max-width: 768px) {
+
+  #game-board {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .card {
+    width: 100%;
+    margin: 5px;
+  }
+
+  .content {
+    padding-bottom: 20px;
+  }
+
+  #scoreboard {
+    display: grid;
+    padding: 10px;
+  }
+
+  .navbar-brand {
+    font-size: 0.8em;
+  }
+
+  .navbar-link {
+    font-size: 0.8em;
+  }
 }

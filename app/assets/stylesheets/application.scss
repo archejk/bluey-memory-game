@@ -44,12 +44,12 @@ p, .card-content, .instructions {
   font-weight: 400; // Regular weight for body text
 }
 
-html, body {
-  height: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
+// html, body {
+//   height: 100%;
+//   margin: 0;
+//   display: flex;
+//   flex-direction: column;
+// }
 
 .wrapper {
   display: flex;
@@ -59,4 +59,5 @@ html, body {
 
 .content {
   flex: 1; // This allows the content to take up all available space
+  padding-bottom: 35px;
 }
