@@ -1,0 +1,22 @@
+<div id="game-container" data-controller="game" data-game-id="<%= @game.id %>" style="text-align: center;">
+  <div id="scoreboard" style="margin-bottom: 20px;">
+    <h2>Scoreboard</h2>
+    <div>
+      Score:
+      <span data-target="game.score">0</span>
+    </div>
+    <div>
+      Best Score:
+      <span data-target="game.bestScore">0</span>
+    </div>
+  </div>
+
+  <div id="game-board" style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px;">
+    <% @cards.each do |card| %>
+      <div class="card" data-card-id="<%= card.id %>" data-action="click->game#clickCard" data-game-target="card">
+        <img src="<%= asset_path(card.image_url) %>" alt="<%= card.name %>">
+        <p><%= card.name %></p>
+      </div>
+    <% end %>
+  </div>
+</div>
