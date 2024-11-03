@@ -42,7 +42,7 @@ body {
 
 #game-board {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   opacity: 0.9;
   gap: 35px;
   margin: 20px auto;
