@@ -17,10 +17,12 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   root "home#index"
-  resources :cards do
-    collection do
-      post :update_score
-      post :reset_score
+
+  # root "games#index"  # Set the root path to the game index
+  resources :games do
+    member do
+      patch :save_score
+      post :update # For card clicks
     end
   end
 

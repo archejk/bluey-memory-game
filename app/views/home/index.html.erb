@@ -1,0 +1,11 @@
+<div id="home-page" class="home-page">
+  <h1>Welcome to the Bluey Character Memory Game! 🎉</h1>
+  
+  <div id="instructions" class="instructions">
+    <h3><%= @instructions %></h3>
+  </div>
+
+  <div id="start-game-container" class="start-game-container">
+    <%= link_to "Start Game", games_path, method: :post, class: "btn btn-primary" %>
+  </div>
+</div>
