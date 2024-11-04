@@ -59,8 +59,11 @@ group :test do
   gem "selenium-webdriver"
 end
 
+# Image Attachments
+gem "activestorage-validator"
 gem "cloudinary", "~> 2.1"
 gem "image_processing"
+
 gem "devise"
 gem "dotenv-rails", groups: [ :development, :test ]
 gem "sassc-rails", "~> 2.1"

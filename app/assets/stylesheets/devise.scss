@@ -30,9 +30,19 @@
   font-size: 0.9em;
 }
 
+.field-inline {
+  display: flex;
+  gap: 1rem;
+}
+
+.field.half-width {
+  flex: 1;
+}
+
 .devise-form input[type="email"],
 .devise-form input[type="password"],
-.devise-form input[type="text"] {
+.devise-form input[type="text"],
+.devise-form input[type="number"] {
   width: 100%;
   padding: 10px 0px;
   margin-bottom: 15px;

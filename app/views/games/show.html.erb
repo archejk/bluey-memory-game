@@ -1,13 +1,27 @@
 <div id="game-container" data-controller="game" data-game-id="<%= @game.id %>">
-  <div id="scoreboard">
-    <h2>Scoreboard</h2>
-    <div>
-      Score:
-      <span data-target="game.score">0</span>
+  <div id="game-header">
+    <div class="player-profile">
+      <% if @user.present? && @user.profile_picture.attached? %>
+        <%= image_tag @user.display_profile_picture, class: "profile-picture" %>
+      <% else %>
+        <%= image_tag "bluey.png", class: "profile-picture" %>
+      <% end %>
+      <div class="player-info">
+        <h3><%= current_user.first_name %> <%= current_user.last_name %></h3>
+        <p>Age: <%= current_user.age %></p>
+      </div>
     </div>
-    <div>
-      Best Score:
-      <span data-target="game.bestScore">0</span>
+
+    <div id="scoreboard">
+      <h2>Scoreboard</h2>
+      <div>
+        Score:
+        <span data-target="game.score">0</span>
+      </div>
+      <div>
+        Best Score:
+        <span data-target="game.bestScore">0</span>
+      </div>
     </div>
   </div>
 
