@@ -1,24 +1,15 @@
-# README
+## Bluey Memory Game
+An interactive web-based game designed to enhance memory and cognitive skills.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Technologies
 
-Things you may want to cover:
+- **Ruby on Rails**: Framework for building the web application.
+- **SCSS**: For Design
+- **Cloudinary**: For managing image uploads and storage.
 
-* Ruby version
+## Versions Utilized
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- **Ruby**: 3.x
+- **Rails**: 7.x
+- **Node.js**: 18.x
+- **npm**: 10.x
